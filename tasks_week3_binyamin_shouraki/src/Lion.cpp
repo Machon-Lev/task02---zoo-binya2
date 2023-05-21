@@ -5,7 +5,7 @@
 #include "Lion.h"
 
 
-void Lion::turnVertically() { }
+void Lion::turnVertically() { return false;}
 
 void Lion::turnHorizontally() {
     if (direction)
